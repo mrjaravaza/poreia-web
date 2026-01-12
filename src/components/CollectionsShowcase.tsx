@@ -7,12 +7,12 @@ const Collections: React.FC = () => {
     {
       title: 'The Heritage Collection',
       description: 'Hand-beaded masterpieces inspired by traditional patterns',
-      image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80'
+      image: '/images/heritagecollection.webp'
     },
     {
       title: 'Modern Safari',
       description: 'Contemporary designs with African wildlife motifs',
-      image: 'https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80'
+      image: '/images/modernsafari.webp'
     }
   ];
 

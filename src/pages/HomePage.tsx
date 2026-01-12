@@ -14,7 +14,7 @@ const HomePage: React.FC = () => {
       <Box
         sx={{
           height: '100vh',
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)',
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/hero1.webp)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           display: 'flex',
@@ -126,7 +126,7 @@ const HomePage: React.FC = () => {
               >
                 <Box
                   component="img"
-                  src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+                  src="/images/fromsoil.webp"
                   alt="Zimbabwean artisan"
                   sx={{
                     width: '100%',
