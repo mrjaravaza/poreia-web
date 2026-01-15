@@ -4,6 +4,10 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import CollectionsPage from './pages/CollectionsPage';
+import StoryPage from './pages/StoryPage';
+import CraftsmanshipPage from './pages/CraftmanshipPage'
+import AffiliatePage from './pages/AffliatePage';
+import JournalPage from './pages/JournalPage';
 
 const theme = createTheme({
   palette: {
@@ -73,6 +77,10 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/collections" element={<CollectionsPage />} />
+          <Route path="/story" element={<StoryPage />} />
+          <Route path="/craftsmanship" element={<CraftsmanshipPage />} />
+          <Route path="/journal" element={<JournalPage />} />
+          <Route path="/affiliate" element={<AffiliatePage />} />
         </Routes>
       </Router>
     </ThemeProvider>

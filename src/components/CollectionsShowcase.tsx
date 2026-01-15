@@ -90,6 +90,7 @@ const Collections: React.FC = () => {
       <Box sx={{ textAlign: 'center' }}>
         <Button
           variant="outlined"
+          href="/#/collections"
           sx={{
             borderColor: 'primary.main',
             color: 'primary.main',

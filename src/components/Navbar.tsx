@@ -33,7 +33,7 @@ function HideOnScroll(props: Props) {
 
 const Navbar: React.FC = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const navItems = ['Collections', 'Story', 'Craftsmanship', 'Journal', 'Contact'];
+  const navItems = ['Collections', 'Story', 'Craftsmanship', 'Journal', 'Affiliate'];
 
   return (
     <>
@@ -103,15 +103,8 @@ const Navbar: React.FC = () => {
 
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
               <IconButton
-                color="inherit"
-                aria-label="cart"
-                sx={{ display: { xs: 'none', md: 'flex' } }}
-              >
-                <Box component="span">🛒</Box>
-              </IconButton>
-              <IconButton
                 edge="end"
-                color="inherit"
+                color="primary"
                 aria-label="menu"
                 onClick={() => setDrawerOpen(true)}
                 sx={{ display: { md: 'none' } }}

@@ -66,6 +66,7 @@ const HomePage: React.FC = () => {
             >
               <Button
                 variant="outlined"
+                href="/#/collections"
                 sx={{
                   color: 'white',
                   borderColor: 'white',
